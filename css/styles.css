@@ -1,0 +1,30 @@
+section
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    //background-color: crimson;
+    background-image: url('../img/Fondo1.jpg');
+    background-size: cover;
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo
+{
+    position: relative;
+    max-width: 80px;
+}
