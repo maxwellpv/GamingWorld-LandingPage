@@ -1,16 +1,35 @@
-section
-{
-    position: relative;
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:  border-box;
+    font-family: Finland;
+}
+
+.Seccion1 {
+    position: absolute;
+    top:0;
+    left: 0;
     width: 100%;
-    min-height: 100vh;
-    padding: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    //background-color: crimson;
+    height: 100%;
     background-image: url('../img/Fondo1.jpg');
     background-size: cover;
 }
+
+
+
+section
+{
+    padding: 10% 10%;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
 header
 {
     position: absolute;
@@ -26,5 +45,55 @@ header
 header .logo
 {
     position: relative;
-    max-width: 80px;
+    max-width: 200px;
+}
+
+.Seccion1 section header ul
+{
+    position: relative;
+    display: flex;
+}
+
+.Seccion1 section header ul li
+{
+    list-style: none;
+}
+
+.Seccion1 section header ul  li a {
+    font-size: 25px;
+    color: white;
+    display:  inline-block;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+h1
+{
+    font-size: 60px;
+    color: white;
+}
+p {
+    font-size: 30px;
+    color: #707070;
+}
+.content h1{
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.content p{
+    padding-bottom: 20%;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #36468F;
+    border-radius: 30px;
 }
