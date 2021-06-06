@@ -5,94 +5,105 @@
     font-family: Finland;
 }
 
-.Seccion1 {
-    position: absolute;
-    top:0;
-    left: 0;
+
+
+
+
+.sec1
+{
+
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow:  hidden;
+    box-sizing: border-box;
     background-image: url('../img/Fondo1.jpg');
     background-size: cover;
 }
 
 
 
-section
+.barra_nav
 {
-    padding: 10% 10%;
-    position: relative;
+    padding-left: 4%;
+    padding-right: 4%;
     width: 100%;
-    min-height: 100vh;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
-
-
-header
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header .logo
+.logo
 {
     position: relative;
-    max-width: 200px;
+    max-width: 10.4vw;
+    cursor: pointer;
 }
-
-.Seccion1 section header ul
+.menu-icon
 {
     position: relative;
-    display: flex;
+    max-width: 0;
+    cursor: pointer;
 }
 
-.Seccion1 section header ul li
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li
 {
     list-style: none;
+    display: inline-block;
+    margin-right: 30px;
 }
 
-.Seccion1 section header ul  li a {
-    font-size: 25px;
-    color: white;
-    display:  inline-block;
-    margin-left: 40px;
-    text-decoration: none;
-}
-
-h1
+nav ul li a
 {
-    font-size: 60px;
+    text-decoration: none;
     color: white;
+    font-size: 20px;
 }
-p {
-    font-size: 30px;
+
+.content{
+    width: 30.11vw;
+    height: 57.4vh;
+    margin-top: 19.2vh;
+    margin-left: 11.1vw;
+
+}
+
+
+
+.content h1{
+    font-size: 5vh;
+    max-width: 19vw;
+    color: white;
+    text-align: center;
+}
+.textBox{
+    margin-top: 9.54vh;
+    margin-bottom: 15.4vh;
+    margin-left: 4.5vw;
+    color: white;
+
+}
+
+.sec1 p {
+    font-size: 2.7vh;
     color: #707070;
 }
-.content h1{
-    padding-top: 20%;
-    padding-bottom: 20%;
-}
-.content p{
-    padding-bottom: 20%;
-}
 
-button {
+
+.sec1 button {
+    margin-left: 7.3vw;
     border: none;
     color: white;
-    padding: 20px 40px;
+    padding: 2.1vh 4.7vw;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 35px;
-    margin: 4px 2px;
+    font-size: 3.2vh;
     cursor: pointer;
     background-color: #36468F;
     border-radius: 30px;
