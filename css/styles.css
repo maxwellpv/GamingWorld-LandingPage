@@ -19,6 +19,8 @@
     box-sizing: border-box;
     background-image: url('../img/Fondo1.jpg');
     background-size: cover;
+    background-position: center;
+
 }
 
 
