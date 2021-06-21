@@ -10,6 +10,8 @@ body{
     background-color: #1B191D;
 }
 
+
+
 .bg-custom {
     background-color: rgb(20, 21, 26);
 }
@@ -18,141 +20,140 @@ body{
     background-color: #1B191D;
 }
 
-.sec1
-{
+@media (min-width: 1000px) {
 
-    width: 100%;
-    min-height: 100vh;
-    box-sizing: border-box;
-    overflow:  hidden;
-    box-sizing: border-box;
-    background-image: url('../img/Fondo1.jpg');
-    background-size: cover;
-    background-position: center;
+    .sec1
+    {
 
-}
+        width: 100%;
+        min-height: 100vh;
+        box-sizing: border-box;
+        overflow:  hidden;
+        box-sizing: border-box;
+        background-image: url('../img/Fondo1.jpg');
+        background-size: cover;
+        background-position: center;
 
-.sec2
-{
-
-    width: 100%;
-    min-height: 100vh;
-    box-sizing: border-box;
-    overflow:  hidden;
-    box-sizing: border-box;
-    background-color: #1B191D;
-    background-size: cover;
-    background-position: center;
-
-}
-
-.sec2 p {
-    font-size: 2.7vh;
-    color: #707070;
-}
-
-.sec2 button {
-    margin-left: 7.3vw;
-    border: none;
-    color: white;
-    padding: 2.1vh 4.7vw;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 3.2vh;
-    cursor: pointer;
-    background-color: #36468F;
-    border-radius: 30px;
-}
-
-.sec2 .content .imagen{
-    max-height: 100px;
-
-}
+    }
 
 
-/*.barra_nav*/
-/*{*/
-/*    padding-left: 4%;*/
-/*    padding-right: 4%;*/
-/*    width: 100%;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*}*/
 
-.logo
-{
-    position: relative;
-    max-width: 10.4vw;
-    cursor: pointer;
-}
-.menu-icon
-{
-    position: relative;
-    max-width: 0;
-    cursor: pointer;
-}
+    .sec2 .content .imagen{
+        max-height: 100px;
 
-/*nav*/
-/*{*/
-/*    flex: 1;*/
-/*    text-align: right;*/
-/*}*/
+    }
 
-/*nav ul li*/
-/*{*/
-/*    list-style: none;*/
-/*    display: inline-block;*/
-/*    margin-right: 30px;*/
-/*}*/
+    .content{
+        width: 30.11vw;
+        height: 57.4vh;
+        margin-top: 19.2vh;
+        margin-left: 11.1vw;
 
-/*nav ul li a*/
-/*{*/
-/*    text-decoration: none;*/
-/*    color: white;*/
-/*    font-size: 20px;*/
-/*}*/
+    }
 
-.content{
-    width: 30.11vw;
-    height: 57.4vh;
-    margin-top: 19.2vh;
-    margin-left: 11.1vw;
+    .content h1{
+        font-size: 5vh;
+        max-width: 19vw;
+        color: white;
+        text-align: center;
+    }
+    .textBox{
+        margin-top: 9.54vh;
+        margin-bottom: 15.4vh;
+        margin-left: 4.5vw;
+        color: white;
+
+    }
+
+    .sec1 p {
+        font-size: 2.7vh;
+        color: #707070;
+    }
+
+
+    button {
+        border: none;
+        color: white;
+        padding: 2.1vh 4.7vw;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 3.2vh;
+        cursor: pointer;
+        background-color: #36468F;
+        border-radius: 30px;
+    }
 
 }
 
+@media (max-width: 1000px) {
+
+    .sec1
+    {
+
+        width: 100%;
+        min-height: 100vh;
+        box-sizing: border-box;
+        overflow:  hidden;
+        box-sizing: border-box;
+        background-image: url('../img/Fondo1.jpg');
+        background-size: cover;
+        background-position: center;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
 
 
-.content h1{
-    font-size: 5vh;
-    max-width: 19vw;
-    color: white;
-    text-align: center;
+
+    .sec2 .content .imagen{
+        max-height: 100px;
+
+    }
+
+    .content{
+
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+
+    }
+
+    .content h1{
+        font-size: 14vw;
+        max-width: 19vh;
+        line-height: 65%;
+        color: white;
+        text-align: center;
+    }
+    .textBox{
+
+        color: white;
+
+    }
+
+    .sec1 p {
+        font-size: 2.7vh;
+        color: #707070;
+    }
+
+
+    button {
+        border: none;
+        color: white;
+        padding: 2.1vh 4.7vw;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 3.2vh;
+        cursor: pointer;
+        background-color: #36468F;
+        border-radius: 30px;
+    }
+
 }
-.textBox{
-    margin-top: 9.54vh;
-    margin-bottom: 15.4vh;
-    margin-left: 4.5vw;
-    color: white;
-
-}
-
-.sec1 p {
-    font-size: 2.7vh;
-    color: #707070;
-}
 
 
-button {
-    margin-left: 7.3vw;
-    border: none;
-    color: white;
-    padding: 2.1vh 4.7vw;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 3.2vh;
-    cursor: pointer;
-    background-color: #36468F;
-    border-radius: 30px;
-}
