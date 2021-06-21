@@ -72,7 +72,7 @@ body{
     button {
         border: none;
         color: white;
-        padding: 2.1vh 4.7vw;
+        padding: 1.5vh 8vh;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -169,4 +169,20 @@ body{
 .margen-nov{
     margin-top: 20vh !important;
     margin-bottom: 20vh !important;
+}
+
+.plan-section{
+
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/Fondo2.jpg') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.plan-section .titulo {
+    padding-top: 15vh !important;
+    margin-bottom: 8vh !important;
 }
