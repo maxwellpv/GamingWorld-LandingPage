@@ -36,8 +36,6 @@ body{
 
     }
 
-
-
     .sec2 .content .imagen{
         max-height: 100px;
 
@@ -129,6 +127,7 @@ body{
         color: white;
         text-align: center;
     }
+
     .textBox{
 
         color: white;
@@ -154,6 +153,20 @@ body{
         border-radius: 30px;
     }
 
+
+
 }
 
+.card-body .t-vacio {
+    color: white;
+}
 
+.card-body h1 {
+    line-height: 75%;
+    font-size: 180px;
+}
+
+.margen-nov{
+    margin-top: 20vh !important;
+    margin-bottom: 20vh !important;
+}
