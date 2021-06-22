@@ -7,6 +7,7 @@
 }
 
 body{
+    width: 100%;
     background-color: #1B191D;
 }
 
@@ -27,9 +28,8 @@ body{
 
         width: 100%;
         min-height: 100vh;
-        box-sizing: border-box;
         overflow:  hidden;
-        box-sizing: border-box;
+        box-sizing: content-box;
         background-image: url('../img/Fondo1.jpg');
         background-size: cover;
         background-position: center;
@@ -75,11 +75,69 @@ body{
         padding: 1.5vh 8vh;
         text-align: center;
         text-decoration: none;
-        display: inline-block;
         font-size: 3.2vh;
         cursor: pointer;
         background-color: #36468F;
         border-radius: 30px;
+    }
+
+    .card-body .t-vacio {
+        color: white;
+    }
+
+    .card-body h1 {
+        line-height: 75%;
+        font-size: 180px;
+    }
+
+    .margen-nov{
+        margin-top: 20vh !important;
+        margin-bottom: 20vh !important;
+    }
+
+    .plan-section{
+        width: 100vw;
+        height: 100vh;
+        background-image: url('../img/Fondo2.jpg') !important;
+
+    }
+
+
+
+    .plan-section .titulo {
+        padding-top: 15vh !important;
+        margin-bottom: 8vh !important;
+
+    }
+
+    .plan-section .row .card {
+        border-radius: 5vw !important;
+    }
+
+
+
+    .informacion{
+        width: 100vw;
+        height: 100vh;
+        background-image: url('../img/Fondo2.jpg') !important;
+    }
+
+    .informacion .row .card {
+        border-radius: 5vw !important;
+    }
+
+    .informacion .row .card-body{
+        width: 80%;
+    }
+
+    h2{
+        font-size: 8vh;
+    }
+
+
+
+    .solinfo{
+        margin-top: 18vh;
     }
 
 }
@@ -154,35 +212,66 @@ body{
     }
 
 
+    .card-body .t-vacio {
+        color: white;
+    }
 
-}
+    .card-body h1 {
+        line-height: 75%;
+        font-size: 180px;
+    }
 
-.card-body .t-vacio {
-    color: white;
-}
+    .margen-nov{
+        margin-top: 20vh !important;
+        margin-bottom: 20vh !important;
+    }
 
-.card-body h1 {
-    line-height: 75%;
-    font-size: 180px;
-}
+    .plan-section{
 
-.margen-nov{
-    margin-top: 20vh !important;
-    margin-bottom: 20vh !important;
-}
+        background-image: url('../img/Fondo2.jpg') !important;
 
-.plan-section{
-
-    width: 100vw;
-    height: 100vh;
-    background-image: url('../img/Fondo2.jpg') !important;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+    }
 
 
 
-.plan-section .titulo {
-    padding-top: 15vh !important;
-    margin-bottom: 8vh !important;
+    .plan-section .titulo {
+        padding-top: 15vh !important;
+        margin-bottom: 8vh !important;
+
+    }
+
+    .plan-section .row .card {
+        border-radius: 5vw !important;
+
+    }
+
+
+
+    .informacion{
+
+        background-image: url('../img/Fondo2.jpg') !important;
+    }
+
+    .informacion .row .card {
+        border: none;
+        color: white;
+        border-radius: 5vw !important;
+        background: none;
+    }
+
+    .informacion .row .card-body{
+        width: 80%;
+        background: none;
+    }
+
+    h2{
+        font-size: 8vh;
+    }
+
+
+
+    .solinfo{
+        margin-top: 18vh;
+    }
+
 }
