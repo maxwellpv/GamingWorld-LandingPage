@@ -159,8 +159,8 @@ a{
     .sec1
     {
 
-        width: 100%;
-        min-height: 100vh;
+        width: 100vw;
+        height: 100vh;
         box-sizing: border-box;
         overflow:  hidden;
         box-sizing: border-box;
@@ -213,11 +213,11 @@ a{
     button {
         border: none;
         color: white;
-        padding: 1vw 5.7vw;
+        padding: 1vh 5.7vh;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 3.2vw;
+        font-size: 4.5vh;
         cursor: pointer;
         background-color: #36468F;
         border-radius: 20px;
