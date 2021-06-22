@@ -1,14 +1,19 @@
 *{
     margin:0;
     padding: 0;
-    box-sizing:  border-box;
+    border: 0;
     font-family: Finland;
 
+}
+
+html, body {
+    overflow-x: hidden;
 }
 
 body{
     width: 100%;
     background-color: #1B191D;
+    position: absolute;
 }
 
 
@@ -35,8 +40,8 @@ a{
     .sec1
     {
 
-        width: 100%;
-        min-height: 100vh;
+        width: 100% !important;
+        height: 100vh;
         overflow:  hidden;
         box-sizing: content-box;
         background-image: url('../img/Fondo1.jpg');
@@ -159,7 +164,7 @@ a{
     .sec1
     {
 
-        width: 100vw;
+        width: 100%;
         height: 100vh;
         box-sizing: border-box;
         overflow:  hidden;
@@ -239,7 +244,7 @@ a{
     }
 
     .plan-section{
-
+        width: 100%;
         background-image: url('../img/Fondo2.jpg') !important;
 
     }
@@ -260,13 +265,13 @@ a{
 
 
     .informacion{
+
         background-image: url('../img/Fondo2.jpg') !important;
     }
 
     .informacion .row .card {
         border: none;
         color: white;
-        border-radius: 5vw !important;
         background: none;
     }
 
@@ -286,12 +291,15 @@ a{
     }
 
 
-    footer .container {
-        display: inline-grid;
 
-    }
 
     footer .container .row .col-lg-4{
+        justify-content: center;
+        display: grid;
+    }
+
+    footer .container .row .col-lg-3 {
+        text: center;
         justify-content: center;
         display: grid;
     }
