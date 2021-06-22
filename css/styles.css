@@ -17,8 +17,16 @@ body{
     background-color: rgb(20, 21, 26);
 }
 
+.bg-footer{
+    background-color: #2E2B2B;
+}
+
 .projects-section {
     background-color: #1B191D;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* Mayor a 800 */
@@ -73,10 +81,10 @@ body{
     button {
         border: none;
         color: white;
-        padding: 1.5vh 8vh;
+        padding: 0.8vw 4vw;
         text-align: center;
         text-decoration: none;
-        font-size: 3.2vh;
+        font-size: 1.5vw;
         cursor: pointer;
         background-color: #36468F;
         border-radius: 30px;
@@ -204,11 +212,11 @@ body{
     button {
         border: none;
         color: white;
-        padding: 1vw 5.7vh;
+        padding: 1vw 5.7vw;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 3.2vh;
+        font-size: 3.2vw;
         cursor: pointer;
         background-color: #36468F;
         border-radius: 20px;
@@ -276,4 +284,28 @@ body{
         margin-top: 18vh;
     }
 
+
+    footer .container {
+        display: inline-grid;
+
+    }
+
+    footer .container .row .col-lg-4{
+        justify-content: center;
+        display: grid;
+    }
+
+    footer .container .row{
+        justify-content: center;
+        display: grid;
+    }
+
+
+
+}
+
+
+.logors {
+    width: 40px;
+    margin-right: 10px;
 }
