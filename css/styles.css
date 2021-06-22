@@ -307,6 +307,6 @@ a{
 
 
 .logors {
-    width: 40px;
-    margin-right: 10px;
+    width: 40px !important;
+    margin-right: 10px !important;
 }
