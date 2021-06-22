@@ -21,7 +21,8 @@ body{
     background-color: #1B191D;
 }
 
-@media (min-width: 1000px) {
+/* Mayor a 800 */
+@media (min-width: 800px) {
 
     .sec1
     {
@@ -142,7 +143,9 @@ body{
 
 }
 
-@media (max-width: 1000px) {
+
+/* Menor a 800 */
+@media (max-width: 800px) {
 
     .sec1
     {
@@ -201,14 +204,14 @@ body{
     button {
         border: none;
         color: white;
-        padding: 2.1vh 4.7vw;
+        padding: 1vw 5.7vh;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 3.2vh;
         cursor: pointer;
         background-color: #36468F;
-        border-radius: 30px;
+        border-radius: 20px;
     }
 
 
@@ -248,7 +251,6 @@ body{
 
 
     .informacion{
-
         background-image: url('../img/Fondo2.jpg') !important;
     }
 
