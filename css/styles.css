@@ -238,8 +238,7 @@ a{
 
     .sec1 .content h1{
 
-        font-size: 20vw;
-        font-size: min(max(80px, 4vw), 20vw);
+        font-size: min(max(80px, 4vw), 20vw) !important;
         line-height: 65%;
         color: white;
 
