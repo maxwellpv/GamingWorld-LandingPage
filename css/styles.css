@@ -206,7 +206,7 @@ a{
 @media (max-width: 990px) {
 
 
-    .navbar {
+    .navbar{
         background-color: #1C181F !important;
     }
 
@@ -238,17 +238,15 @@ a{
 
     .sec1 .content h1{
 
-
-
         font-size: 20vw;
-        max-width: 55vh;
+        font-size: min(max(80px, 4vw), 20vw);
         line-height: 65%;
         color: white;
 
     }
 
     .sec1 p {
-        font-size: 3vh;
+        font-size: 4vh;
         color: white;
         margin-top: 5vh;
         margin-bottom: 5vh;
