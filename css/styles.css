@@ -13,8 +13,6 @@ html, body {
 body{
     width: 100%;
     background-color: #1B191D;
-    min-width: 320px;
-
 }
 
 
@@ -139,8 +137,8 @@ a{
     }
 
     .plan-section{
-        width: 100vw;
-        height: 100vh;
+        /*width: 100vw;*/
+        /*height: 100vh;*/
         background-image: url('../img/Fondo2.jpg') !important;
 
     }
@@ -174,8 +172,8 @@ a{
 
 
     .informacion{
-        width: 100vw;
-        height: 100vh;
+        /*width: 100vw;*/
+        /*height: 100vh;*/
         background-image: url('../img/Fondo2.jpg') !important;
     }
 
@@ -216,6 +214,7 @@ a{
         width: 100vw;
         height: 100vh;
         overflow:  hidden;
+        box-sizing: border-box;
         background-image: url('../img/Fondo1.jpg');
         background-size: cover;
         background-position: center;
@@ -226,9 +225,10 @@ a{
     }
 
     .sec1 .content{
+        width: 100vw;
         margin-top: auto;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: 0;
         margin-bottom: auto;
         text-align: center;
 
@@ -236,7 +236,7 @@ a{
     }
 
     .sec1 .content h1{
-        font-size: min(max(80px, 4vw), 20vw) !important;
+        font-size: min(max(80px, 10vw), 20vw) !important;
         line-height: 65%;
         color: white;
     }
