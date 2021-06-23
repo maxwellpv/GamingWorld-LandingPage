@@ -230,18 +230,15 @@ a{
         margin-left: auto;
         margin-right: auto;
         margin-bottom: auto;
-
         text-align: center;
 
 
     }
 
     .sec1 .content h1{
-
         font-size: min(max(80px, 4vw), 20vw) !important;
         line-height: 65%;
         color: white;
-
     }
 
     .sec1 p {
