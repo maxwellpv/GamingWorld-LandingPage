@@ -34,6 +34,15 @@ a{
     text-decoration: none;
 }
 
+.sec-nosotros {
+    background-image: url('../img/Fondo3.jpg');
+    background-size: auto;
+}
+
+.sec-nosotros a{
+    color: white;
+}
+
 
 
 
@@ -166,8 +175,7 @@ a{
 @media (max-width: 800px) {
 
 
-    .navbar-expand-lg {
-
+    .navbar {
         background-color: #1C181F !important;
     }
 
