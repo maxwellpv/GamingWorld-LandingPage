@@ -36,11 +36,21 @@ a{
 
 .sec-nosotros {
     background-image: url('../img/Fondo3.jpg');
-    background-size: auto;
+    background-size: cover !important;
 }
 
+.sec-nosotros h2{
+    color: white !important;
+    font-size: 2vw !important;
+}
 .sec-nosotros a{
-    color: white;
+    color: white !important;
+    font-size: 2vw !important;
+}
+
+.sec-nosotros h1{
+    color: white !important;
+    font-size: 3.5vw !important;
 }
 
 
