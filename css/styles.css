@@ -137,10 +137,10 @@ a{
     }
 
     .plan-section{
-        /*width: 100vw;*/
-        /*height: 100vh;*/
+        min-width: 100vw;
+        min-height: 100vh;
         background-image: url('../img/Fondo2.jpg') !important;
-
+        background-size: cover;
     }
 
 
@@ -158,11 +158,14 @@ a{
     .sec-nosotros h2{
         color: white !important;
         font-size: 2vw !important;
+        margin-bottom: 3vw;
     }
     .sec-nosotros a{
         color: white !important;
         font-size: 2vw !important;
+
     }
+
 
     .sec-nosotros h1{
         color: white !important;
@@ -172,26 +175,45 @@ a{
 
 
     .informacion{
-        /*width: 100vw;*/
-        /*height: 100vh;*/
+        min-width: 100%;
+        min-height: 100vh;
         background-image: url('../img/Fondo2.jpg') !important;
+        background-size: cover;
+
+        display: flex;
+        aling-items: center;
+        justify-content: center;
+
+
+
+
+    }
+
+    .informacion .row {
+        width: 90%;
+        height: 80%;
+
+
+        margin-top: auto;
+        margin-bottom: auto;
+
     }
 
     .informacion .row .card {
+
         border-radius: 5vw !important;
     }
 
     .informacion .row .card-body{
-        width: 80%;
+
+        width: 90%;
     }
 
     h2{
         font-size: 8vh;
     }
 
-    .solinfo{
-        margin-top: 5vw;
-    }
+
 
 
 
