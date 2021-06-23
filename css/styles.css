@@ -13,9 +13,9 @@ html, body {
 body{
     width: 100%;
     background-color: #1B191D;
-    position: absolute;
-}
+    min-width: 320px;
 
+}
 
 
 .bg-custom {
@@ -33,6 +33,9 @@ body{
 a{
     text-decoration: none;
 }
+
+
+
 
 /* Mayor a 800 */
 @media (min-width: 800px) {
@@ -148,11 +151,12 @@ a{
         font-size: 8vh;
     }
 
-
-
     .solinfo{
         margin-top: 5vw;
     }
+
+
+
 
 }
 
@@ -160,6 +164,12 @@ a{
 
 /* Menor a 800 */
 @media (max-width: 800px) {
+
+
+    .navbar-expand-lg {
+
+        background-color: #1C181F !important;
+    }
 
     .sec1
     {
