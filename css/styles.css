@@ -77,6 +77,11 @@ a{
 
     }
 
+    .sec-nosotros .titulo{
+        padding-top-top: 4vw !important;
+        margin-bottom: 4vw !important;
+    }
+
     .content{
         width: 30.11vw;
         height: 57.4vh;
