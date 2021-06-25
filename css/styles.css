@@ -58,6 +58,22 @@ a{
 
     }
 
+    .content h1{
+        font-size: 5vh;
+        max-width: 19vw;
+        color: white;
+        text-align: center;
+    }
+
+    .textBox{
+        margin-top: 9.54vh;
+        margin-bottom: min(15.4vh,100px);
+        margin-left: 4.5vw;
+
+        color: white;
+
+    }
+
     .sec2 .content .imagen{
         max-height: 100px;
 
@@ -90,19 +106,7 @@ a{
 
     }
 
-    .content h1{
-        font-size: 5vh;
-        max-width: 19vw;
-        color: white;
-        text-align: center;
-    }
-    .textBox{
-        margin-top: 9.54vh;
-        margin-bottom: 15.4vh;
-        margin-left: 4.5vw;
-        color: white;
 
-    }
 
     .sec1 p {
         font-size: 2.7vh;
@@ -233,8 +237,8 @@ a{
     .sec1
     {
 
-        width: 100vw;
-        height: 100vh;
+        min-width: 100vw;
+        min-height: 100vh;
         overflow:  hidden;
         box-sizing: border-box;
         background-image: url('../img/Fondo1.jpg');
@@ -266,6 +270,7 @@ a{
     .sec1 p {
         font-size: 4vh;
         color: white;
+
         margin-top: 5vh;
         margin-bottom: 5vh;
     }
@@ -420,4 +425,31 @@ a{
 .logors {
     width: 40px !important;
     margin-right: 10px !important;
+}
+
+.boton-Android{
+    border-radius: 0 !important;
+    min-width: 155px;
+    min-height: 50px;
+    width: 12vw!important;
+    height: 4vw !important;
+    background: none;
+    background-image: url('../img/D-ANDROID.png') !important;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.boton-IOS{
+    border-radius: 0 !important;
+    min-width: 155px;
+    min-height: 50px;
+    width: 12vw!important;
+    height: 4vw !important;
+
+    background: none !important;
+    background-image: url('../img/D-IOS.png') !important;
+    background-position: center !important;
+    background-size: cover !important;
+    cursor: pointer !important;
 }
