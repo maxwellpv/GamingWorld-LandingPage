@@ -211,9 +211,10 @@ a{
 
     }
 
+
     .informacion .row .card-body{
 
-        width: max(30vw, 400px);
+        width: 90%;
     }
 
     h2{
@@ -347,7 +348,7 @@ a{
 
 
     .plan-section .titulo {
-        padding-top: max(12vh, 50px) !important;
+        padding-top: max(15vh, 50px) !important;
         margin-bottom: 8vh !important;
 
     }
@@ -376,17 +377,23 @@ a{
         font-size: max(12vw,20px) !important;
     }
 
+    .sec-nosotros h2{
+        margin-bottom: max(8vw, 20px);
+    }
+
 
 
     .informacion{
 
         background-image: url('../img/Fondo2.jpg') !important;
+        background-size: cover;
     }
 
     .informacion .row .card {
         border: none;
         color: white;
         background: none;
+        min-width: 100vw;
     }
 
     .informacion .row .card-body{
@@ -394,8 +401,9 @@ a{
         background: none;
     }
 
-    h2{
-        font-size: 8vh;
+    .informacion h2{
+        margin-top: max(12vh, 50px) ;
+        font-size: max(8vh, 20px);
     }
 
 
