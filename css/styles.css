@@ -258,7 +258,7 @@ a{
         width: 100vw;
         margin-top: auto;
         margin-left: auto;
-        margin-right: 0;
+        margin-right: auto;
         margin-bottom: auto;
         text-align: center;
 
@@ -312,7 +312,7 @@ a{
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 4.5vh;
+        font-size: max(min(4.5vh,24px), 24px);
         cursor: pointer;
         background-color: #36468F;
         border-radius: 20px;
