@@ -202,7 +202,7 @@ a{
     .informacion .row .card {
 
         border-radius: 5vw !important;
-        width: max(30vw, 400px);
+        width: max(30vw, 450px);
     }
 
     .informacion .col{
