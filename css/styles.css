@@ -155,6 +155,10 @@ a{
 
     }
 
+    .plan-section .t-free{
+        margin-bottom: 44px!important;
+    }
+
     .plan-section .row .card {
         border-radius: 5vw !important;
     }
@@ -285,8 +289,7 @@ a{
     }
 
     .sec2 p{
-        margin-top: 5vw !important;
-        margin-bottom: 5vw !important;
+
         font-size: 6vw !important;
     }
 
@@ -315,18 +318,19 @@ a{
     }
 
 
-    .card-body .t-vacio {
-        color: white;
-    }
-
     .card-body h1 {
         line-height: 75%;
         font-size: 180px;
     }
 
+    .margen-nov-1{
+        padding-top: max(15vh,50px) !important;
+        margin-bottom: 10vh !important;
+    }
+
     .margen-nov{
-        margin-top: 20vh !important;
-        margin-bottom: 20vh !important;
+        margin-top: 10vh !important;
+        margin-bottom: 10vh !important;
     }
 
     .plan-section{
@@ -337,10 +341,13 @@ a{
 
     }
 
+    .plan-section .t-free{
+        margin-bottom: 30px!important;
+    }
 
 
     .plan-section .titulo {
-        padding-top: 8vh !important;
+        padding-top: max(12vh, 50px) !important;
         margin-bottom: 8vh !important;
 
     }
@@ -364,8 +371,9 @@ a{
     }
 
     .sec-nosotros h1{
+        padding-top: max(10vh, 50px) !important;
         color: white !important;
-        font-size: 12vw !important;
+        font-size: max(12vw,20px) !important;
     }
 
 
