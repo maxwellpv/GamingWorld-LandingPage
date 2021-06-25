@@ -11,7 +11,7 @@ html, body {
 }
 
 body{
-    width: max(100%, 320px);
+    width: max(100%, 280px);
     background-color: #1B191D;
 }
 
