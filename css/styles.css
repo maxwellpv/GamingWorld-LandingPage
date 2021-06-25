@@ -11,7 +11,7 @@ html, body {
 }
 
 body{
-    width: 100%;
+    width: max(100%, 320px);
     background-color: #1B191D;
 }
 
@@ -159,6 +159,14 @@ a{
         border-radius: 5vw !important;
     }
 
+    .plan-section .row .card-body {
+        width: max(min(30vw,400px), 400px);
+    }
+
+    .plan-section .col {
+        margin-bottom: max(5vw, 50px) !important;
+    }
+
     .sec-nosotros h2{
         color: white !important;
         font-size: 2vw !important;
@@ -179,38 +187,29 @@ a{
 
 
     .informacion{
-        min-width: 100%;
+        min-width: 100vw;
         min-height: 100vh;
         background-image: url('../img/Fondo2.jpg') !important;
-        background-size: cover;
+        background-size: cover !important;
 
-        display: flex;
-        aling-items: center;
-        justify-content: center;
-
-
-
-
-    }
-
-    .informacion .row {
-        width: 90%;
-        height: 80%;
-
-
-        margin-top: auto;
-        margin-bottom: auto;
 
     }
 
     .informacion .row .card {
 
         border-radius: 5vw !important;
+        width: max(30vw, 400px);
+    }
+
+    .informacion .col{
+        margin-top: max(5vw, 50px);
+        margin-bottom: max(5vw, 50px);
+
     }
 
     .informacion .row .card-body{
 
-        width: 90%;
+        width: max(30vw, 400px);
     }
 
     h2{
@@ -262,6 +261,7 @@ a{
     }
 
     .sec1 .content h1{
+        padding: 10px;
         font-size: min(max(80px, 10vw), 20vw) !important;
         line-height: 65%;
         color: white;
@@ -330,22 +330,28 @@ a{
     }
 
     .plan-section{
-        width: 100%;
+        min-width: 100vw;
+        min-height: 100vh;
         background-image: url('../img/Fondo2.jpg') !important;
+        background-size: cover;
 
     }
 
 
 
     .plan-section .titulo {
-        padding-top: 15vh !important;
+        padding-top: 8vh !important;
         margin-bottom: 8vh !important;
 
     }
 
     .plan-section .row .card {
+        width: max(50vw, 300px) !important;
         border-radius: 5vw !important;
+    }
 
+    .plan-section .col{
+        margin-bottom: max(5vw, 50px) !important;
     }
 
     .sec-nosotros h2{
@@ -387,7 +393,7 @@ a{
 
 
     .solinfo{
-        margin-top: 18vh;
+        margin-top: 5vh;
     }
 
 
@@ -419,6 +425,22 @@ a{
 
 
 
+}
+
+.card-body .text-black-50{
+    font-size: max(1.5vw,20px) !important;
+}
+
+.sec-nosotros h2 a{
+    font-size: max(2.5vw,35px) !important;
+}
+
+.informacion label{
+    font-size: max(1.5vw,20px) !important;;
+}
+
+.sec1 p{
+    font-size: max(1.5vw,20px) !important;;
 }
 
 
