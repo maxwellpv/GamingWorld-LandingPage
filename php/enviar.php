@@ -1,8 +1,9 @@
 <?php
 $name = $_POST['name'];
+$lastname = $_POST['lastname'];
 $mail = $_POST['email'];
 $city = $_POST['city'];
-$lastname = $_POST['lastname'];
+
 
 $header = 'From: ' . $mail . " \r\n";
 $header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
@@ -15,9 +16,7 @@ $message .= "Mensaje: " . $_POST['message'] . " \r\n";
 $message .= "Enviado el: " . date('d/m/Y', time());
 
 $para = 'aaron.plan@hotmail.com';
-$asunto = 'Mensaje de... (Escribe como quieres que se vea el remitente de tu correo)';
+$asunto = 'Usuario interesado en GamingWorld';
 
 mail($para, $asunto, utf8_decode($message), $header);
-
-header("Location:index.html");
 ?>
