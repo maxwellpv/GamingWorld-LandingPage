@@ -150,7 +150,6 @@ a{
 
     .plan-section{
         min-width: 100vw;
-        min-height: 100vh;
         background-image: url('../img/Fondo2.jpg') !important;
         background-size: cover;
     }
@@ -158,7 +157,7 @@ a{
 
 
     .plan-section .titulo {
-        padding-top: 15vh !important;
+        padding-top: 8vh !important;
         margin-bottom: 8vh !important;
 
     }
@@ -200,7 +199,6 @@ a{
 
     .informacion{
         min-width: 100vw;
-        min-height: 100vh;
         background-image: url('../img/Fondo2.jpg') !important;
         background-size: cover !important;
 
